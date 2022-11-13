@@ -1,0 +1,25 @@
+.title {
+  margin: 50px 0 50px;
+}
+
+.bottom-content {
+background-color: rgb(246, 243, 243);
+border-radius: 5px;
+border-top: 2px solid rgb(227, 222, 222);
+display: flex;
+justify-content: space-between;
+padding: 5px;
+}
+
+.img-height {
+  height:200px;
+  object-fit: cover;
+}
+
+.text-height {
+height: 100px;
+}
+
+.card-title {
+  height: 50px;
+}
