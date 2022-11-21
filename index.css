@@ -16,10 +16,38 @@ padding: 5px;
   object-fit: cover;
 }
 
-.text-height {
-height: 100px;
+.img-cart{
+  width: 20%;
+  height: 20%;
 }
-
-.card-title {
-  height: 50px;
+.cart-item {
+  padding: 10px;
+}
+.modalBox {
+  padding: 10px;
+  display: none;
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.4);
+}
+.modal-header {
+  padding: 10px;
+  background-color: white;
+  width: 70%;
+}
+.cart-item {
+  padding: 10px;
+  background-color: white;
+  width: 70%;
+}
+.modal-footer {
+  padding: 10px;
+  background-color: white;
+  width: 70%;
 }
